@@ -28,6 +28,10 @@ on:
         description: 'Commit + push the produced store file back. Off by default — review the artifact first.'
         type: boolean
         default: false
+      rocq-image:
+        description: 'Prebuilt Rocq toolchain image. Default skips the ~30-min Coq/QuickChick build. Set empty to build the toolchain from source instead.'
+        type: string
+        default: 'ghcr.io/alpaylan/etna-quickchick:programmable-pbt'
 
 permissions:
   contents: write
@@ -41,3 +45,4 @@ jobs:
       params: ${{ inputs.params }}
       short-circuit: ${{ inputs.short-circuit }}
       commit-results: ${{ inputs.commit-results }}
+      rocq-image: ${{ inputs.rocq-image }}
