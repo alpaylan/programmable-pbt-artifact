@@ -4,3 +4,6 @@
 [submodule "workloads/rbt-proplang-rocq"]
 	path = workloads/rbt-proplang-rocq
 	url = https://github.com/alpaylan/etna-rocq-rbt-proplang
+[submodule "workloads/bst-rocq"]
+	path = workloads/bst-rocq
+	url = https://github.com/alpaylan/etna-rocq-bst
