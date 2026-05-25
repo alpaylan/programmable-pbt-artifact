@@ -10,12 +10,12 @@
     "params": null,
     "tasks": [
       {
-        "property": "SinglePreserve",
-        "strategy": "RackcheckBespoke"
-      },
-      {
         "strategy": "ProplangBespoke",
         "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
       },
       {
         "property": "MultiPreserve",
