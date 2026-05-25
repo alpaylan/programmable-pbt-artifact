@@ -13,3 +13,6 @@
 [submodule "workloads/stlc-rocq"]
 	path = workloads/stlc-rocq
 	url = https://github.com/alpaylan/etna-rocq-stlc
+[submodule "workloads/stlc-proplang-rocq"]
+	path = workloads/stlc-proplang-rocq
+	url = https://github.com/alpaylan/etna-rocq-stlc-proplang

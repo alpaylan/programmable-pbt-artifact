@@ -1,0 +1,818 @@
+[
+  {
+    "workload": "stlc-proplang-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_var_none"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "NewGenerator"
+      },
+      {
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "strategy": "NewGenerator",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "stlc-proplang-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_var_all"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "TypeBasedGenerator",
+        "property": "SinglePreserve"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer",
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "NewGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "BespokeGenerator",
+        "property": "MultiPreserve"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "TypeBasedGenerator",
+        "property": "MultiPreserve"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "NewGenerator"
+      }
+    ]
+  },
+  {
+    "workload": "stlc-proplang-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_var_leq"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "strategy": "NewGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "TypeBasedGenerator",
+        "property": "MultiPreserve"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer",
+        "property": "MultiPreserve"
+      },
+      {
+        "strategy": "NewGenerator",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "stlc-proplang-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_abs_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "BespokeGenerator",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "strategy": "NewGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "NewGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "stlc-proplang-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_var_all"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "NewGenerator",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "MultiPreserve"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "NewGenerator"
+      }
+    ]
+  },
+  {
+    "workload": "stlc-proplang-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_var_none"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "strategy": "BespokeGenerator",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "NewGenerator",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve"
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve"
+      },
+      {
+        "strategy": "NewGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve"
+      }
+    ]
+  },
+  {
+    "workload": "stlc-proplang-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_abs_no_shift"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "BespokeGenerator",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "NewGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "NewGenerator",
+        "property": "MultiPreserve"
+      }
+    ]
+  },
+  {
+    "workload": "stlc-proplang-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_abs_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "BespokeGenerator",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ],
+        "strategy": "NewGenerator"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "NewGenerator",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ]
+      }
+    ]
+  }
+]
