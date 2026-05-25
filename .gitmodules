@@ -25,3 +25,6 @@
 [submodule "workloads/stlc-racket"]
 	path = workloads/stlc-racket
 	url = https://github.com/alpaylan/etna-racket-stlc
+[submodule "workloads/systemf-racket"]
+	path = workloads/systemf-racket
+	url = https://github.com/alpaylan/etna-racket-systemf

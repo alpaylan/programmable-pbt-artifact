@@ -1,0 +1,506 @@
+[
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_abs_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "MultiPreserve"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_typ_tabs_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "MultiPreserve"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "MultiPreserve"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_var_all"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_var_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "MultiPreserve"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "MultiPreserve"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_abs_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "MultiPreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_abs_no_shift"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "MultiPreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_tabs_no_shift"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "MultiPreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_typ_tabs_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_typ_tabs_no_shift"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_var_flip"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "MultiPreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_var_no_decr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "tshift_all_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "tshift_tvar_all"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "MultiPreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "tshift_tvar_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "tsubst_all_no_tshift"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "tsubst_tvar_flip"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "MultiPreserve"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "MultiPreserve"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "tsubst_tvar_no_shift"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "MultiPreserve"
+      }
+    ]
+  },
+  {
+    "workload": "systemf-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "tsubst_tvar_over_shift"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "MultiPreserve"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "MultiPreserve"
+      }
+    ]
+  }
+]
