@@ -27,8 +27,8 @@ run() {
 }
 
 run systemf-racket
-run stlc-racket
-run bst-racket
-run rbt-racket
+# run stlc-racket
+# run bst-racket
+# run rbt-racket
 
 echo "=== all runs complete ==="
