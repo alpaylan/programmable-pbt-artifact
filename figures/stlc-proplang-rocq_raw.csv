@@ -7,6 +7,8 @@ workload,strategy,property,mutations,mode,discards,tests,shrinks,time
 "stlc-proplang-rocq","BespokeGenerator","SinglePreserve",["subst_var_none"],"solve",0.00,0.00,0.00,0.0034
 "stlc-proplang-rocq","BespokeGenerator","SinglePreserve",["subst_abs_no_shift"],"solve",0.00,0.00,0.00,0.3334
 "stlc-proplang-rocq","BespokeGenerator","SinglePreserve",["subst_abs_no_incr"],"solve",0.00,0.00,0.00,0.0032
+"stlc-proplang-rocq","BespokeGenerator","SinglePreserve",["substTop_no_shift"],"solve",0.00,0.00,0.00,0.0059
+"stlc-proplang-rocq","BespokeGenerator","SinglePreserve",["substTop_no_shift_back"],"solve",0.00,0.00,0.00,0.0045
 "stlc-proplang-rocq","BespokeGenerator","MultiPreserve",["shift_var_none"],"solve",0.00,0.00,0.00,0.0037
 "stlc-proplang-rocq","BespokeGenerator","MultiPreserve",["shift_var_all"],"solve",0.00,0.00,0.00,0.0140
 "stlc-proplang-rocq","BespokeGenerator","MultiPreserve",["shift_var_leq"],"solve",0.00,0.00,0.00,0.3562
@@ -15,6 +17,8 @@ workload,strategy,property,mutations,mode,discards,tests,shrinks,time
 "stlc-proplang-rocq","BespokeGenerator","MultiPreserve",["subst_var_none"],"solve",0.00,0.00,0.00,0.0017
 "stlc-proplang-rocq","BespokeGenerator","MultiPreserve",["subst_abs_no_shift"],"solve",0.00,0.00,0.00,0.2304
 "stlc-proplang-rocq","BespokeGenerator","MultiPreserve",["subst_abs_no_incr"],"solve",0.00,0.00,0.00,0.0025
+"stlc-proplang-rocq","BespokeGenerator","MultiPreserve",["substTop_no_shift"],"solve",0.00,0.00,0.00,0.0042
+"stlc-proplang-rocq","BespokeGenerator","MultiPreserve",["substTop_no_shift_back"],"solve",0.00,0.00,0.00,0.0059
 "stlc-proplang-rocq","SpecificationBasedGenerator","SinglePreserve",["shift_var_none"],"solve",0.00,0.00,0.00,0.0027
 "stlc-proplang-rocq","SpecificationBasedGenerator","SinglePreserve",["shift_var_all"],"solve",0.00,0.00,0.00,0.0019
 "stlc-proplang-rocq","SpecificationBasedGenerator","SinglePreserve",["shift_var_leq"],"solve",0.00,0.00,0.00,0.0574
@@ -23,6 +27,8 @@ workload,strategy,property,mutations,mode,discards,tests,shrinks,time
 "stlc-proplang-rocq","SpecificationBasedGenerator","SinglePreserve",["subst_var_none"],"solve",0.00,0.00,0.00,0.0023
 "stlc-proplang-rocq","SpecificationBasedGenerator","SinglePreserve",["subst_abs_no_shift"],"solve",0.00,0.00,0.00,0.0850
 "stlc-proplang-rocq","SpecificationBasedGenerator","SinglePreserve",["subst_abs_no_incr"],"solve",0.00,0.00,0.00,0.0010
+"stlc-proplang-rocq","SpecificationBasedGenerator","SinglePreserve",["substTop_no_shift"],"solve",0.00,0.00,0.00,0.0029
+"stlc-proplang-rocq","SpecificationBasedGenerator","SinglePreserve",["substTop_no_shift_back"],"solve",0.00,0.00,0.00,0.0028
 "stlc-proplang-rocq","SpecificationBasedGenerator","MultiPreserve",["shift_var_none"],"solve",0.00,0.00,0.00,0.0020
 "stlc-proplang-rocq","SpecificationBasedGenerator","MultiPreserve",["shift_var_all"],"solve",0.00,0.00,0.00,0.0027
 "stlc-proplang-rocq","SpecificationBasedGenerator","MultiPreserve",["shift_var_leq"],"solve",0.00,0.00,0.00,0.0772
@@ -31,6 +37,8 @@ workload,strategy,property,mutations,mode,discards,tests,shrinks,time
 "stlc-proplang-rocq","SpecificationBasedGenerator","MultiPreserve",["subst_var_none"],"solve",0.00,0.00,0.00,0.0028
 "stlc-proplang-rocq","SpecificationBasedGenerator","MultiPreserve",["subst_abs_no_shift"],"solve",0.00,0.00,0.00,0.0757
 "stlc-proplang-rocq","SpecificationBasedGenerator","MultiPreserve",["subst_abs_no_incr"],"solve",0.00,0.00,0.00,0.0007
+"stlc-proplang-rocq","SpecificationBasedGenerator","MultiPreserve",["substTop_no_shift"],"solve",0.00,0.00,0.00,0.0025
+"stlc-proplang-rocq","SpecificationBasedGenerator","MultiPreserve",["substTop_no_shift_back"],"solve",0.00,0.00,0.00,0.0035
 "stlc-proplang-rocq","TypeBasedGenerator","SinglePreserve",["shift_var_none"],"solve",0.00,291.30,0.00,0.0303
 "stlc-proplang-rocq","TypeBasedGenerator","SinglePreserve",["shift_var_all"],"solve",0.00,765.10,0.00,0.0911
 "stlc-proplang-rocq","TypeBasedGenerator","SinglePreserve",["shift_var_leq"],"solve",0.00,226107.90,0.00,6.1506
@@ -39,6 +47,8 @@ workload,strategy,property,mutations,mode,discards,tests,shrinks,time
 "stlc-proplang-rocq","TypeBasedGenerator","SinglePreserve",["subst_var_none"],"solve",0.00,545.40,0.00,0.0318
 "stlc-proplang-rocq","TypeBasedGenerator","SinglePreserve",["subst_abs_no_shift"],"solve",0.00,63686.40,0.00,3.5506
 "stlc-proplang-rocq","TypeBasedGenerator","SinglePreserve",["subst_abs_no_incr"],"solve",0.00,152.30,0.00,0.0429
+"stlc-proplang-rocq","TypeBasedGenerator","SinglePreserve",["substTop_no_shift"],"solve",0.00,765.10,0.00,0.0315
+"stlc-proplang-rocq","TypeBasedGenerator","SinglePreserve",["substTop_no_shift_back"],"solve",0.00,372.90,0.00,0.0463
 "stlc-proplang-rocq","TypeBasedGenerator","MultiPreserve",["shift_var_none"],"solve",0.00,363.10,0.00,0.0225
 "stlc-proplang-rocq","TypeBasedGenerator","MultiPreserve",["shift_var_all"],"solve",0.00,6382.30,0.00,0.1898
 "stlc-proplang-rocq","TypeBasedGenerator","MultiPreserve",["shift_var_leq"],"solve",0.00,21442.30,0.00,5.3504
@@ -47,6 +57,8 @@ workload,strategy,property,mutations,mode,discards,tests,shrinks,time
 "stlc-proplang-rocq","TypeBasedGenerator","MultiPreserve",["subst_var_none"],"solve",0.00,655.00,0.00,0.0531
 "stlc-proplang-rocq","TypeBasedGenerator","MultiPreserve",["subst_abs_no_shift"],"solve",0.00,33907.40,0.00,1.8714
 "stlc-proplang-rocq","TypeBasedGenerator","MultiPreserve",["subst_abs_no_incr"],"solve",0.00,163.80,0.00,0.0545
+"stlc-proplang-rocq","TypeBasedGenerator","MultiPreserve",["substTop_no_shift"],"solve",0.00,197.60,0.00,0.0169
+"stlc-proplang-rocq","TypeBasedGenerator","MultiPreserve",["substTop_no_shift_back"],"solve",0.00,389.10,0.00,0.0230
 "stlc-proplang-rocq","TypeBasedFuzzer","SinglePreserve",["shift_var_none"],"solve",NaN,NaN,NaN,NaN
 "stlc-proplang-rocq","TypeBasedFuzzer","SinglePreserve",["shift_var_all"],"solve",NaN,NaN,NaN,NaN
 "stlc-proplang-rocq","TypeBasedFuzzer","SinglePreserve",["shift_var_leq"],"solve",NaN,NaN,NaN,NaN
@@ -55,6 +67,8 @@ workload,strategy,property,mutations,mode,discards,tests,shrinks,time
 "stlc-proplang-rocq","TypeBasedFuzzer","SinglePreserve",["subst_var_none"],"solve",NaN,NaN,NaN,NaN
 "stlc-proplang-rocq","TypeBasedFuzzer","SinglePreserve",["subst_abs_no_shift"],"solve",NaN,NaN,NaN,NaN
 "stlc-proplang-rocq","TypeBasedFuzzer","SinglePreserve",["subst_abs_no_incr"],"solve",NaN,NaN,NaN,NaN
+"stlc-proplang-rocq","TypeBasedFuzzer","SinglePreserve",["substTop_no_shift"],"solve",0.00,259.00,0.00,15.1561
+"stlc-proplang-rocq","TypeBasedFuzzer","SinglePreserve",["substTop_no_shift_back"],"solve",NaN,NaN,NaN,NaN
 "stlc-proplang-rocq","TypeBasedFuzzer","MultiPreserve",["shift_var_none"],"solve",NaN,NaN,NaN,NaN
 "stlc-proplang-rocq","TypeBasedFuzzer","MultiPreserve",["shift_var_all"],"solve",NaN,NaN,NaN,NaN
 "stlc-proplang-rocq","TypeBasedFuzzer","MultiPreserve",["shift_var_leq"],"solve",NaN,NaN,NaN,NaN
@@ -63,6 +77,8 @@ workload,strategy,property,mutations,mode,discards,tests,shrinks,time
 "stlc-proplang-rocq","TypeBasedFuzzer","MultiPreserve",["subst_var_none"],"solve",NaN,NaN,NaN,NaN
 "stlc-proplang-rocq","TypeBasedFuzzer","MultiPreserve",["subst_abs_no_shift"],"solve",NaN,NaN,NaN,NaN
 "stlc-proplang-rocq","TypeBasedFuzzer","MultiPreserve",["subst_abs_no_incr"],"solve",NaN,NaN,NaN,NaN
+"stlc-proplang-rocq","TypeBasedFuzzer","MultiPreserve",["substTop_no_shift"],"solve",NaN,NaN,NaN,NaN
+"stlc-proplang-rocq","TypeBasedFuzzer","MultiPreserve",["substTop_no_shift_back"],"solve",NaN,NaN,NaN,NaN
 "stlc-proplang-rocq","NewGenerator","SinglePreserve",["shift_var_none"],"solve",0.00,0.00,0.00,0.0051
 "stlc-proplang-rocq","NewGenerator","SinglePreserve",["shift_var_all"],"solve",0.00,0.00,0.00,0.0324
 "stlc-proplang-rocq","NewGenerator","SinglePreserve",["shift_var_leq"],"solve",0.00,0.00,0.00,0.4343
@@ -71,6 +87,8 @@ workload,strategy,property,mutations,mode,discards,tests,shrinks,time
 "stlc-proplang-rocq","NewGenerator","SinglePreserve",["subst_var_none"],"solve",0.00,0.00,0.00,0.0006
 "stlc-proplang-rocq","NewGenerator","SinglePreserve",["subst_abs_no_shift"],"solve",0.00,0.00,0.00,0.2056
 "stlc-proplang-rocq","NewGenerator","SinglePreserve",["subst_abs_no_incr"],"solve",0.00,0.00,0.00,0.0029
+"stlc-proplang-rocq","NewGenerator","SinglePreserve",["substTop_no_shift"],"solve",0.00,0.00,0.00,0.0050
+"stlc-proplang-rocq","NewGenerator","SinglePreserve",["substTop_no_shift_back"],"solve",0.00,0.00,0.00,0.0025
 "stlc-proplang-rocq","NewGenerator","MultiPreserve",["shift_var_none"],"solve",0.00,0.00,0.00,0.0103
 "stlc-proplang-rocq","NewGenerator","MultiPreserve",["shift_var_all"],"solve",0.00,0.00,0.00,0.1078
 "stlc-proplang-rocq","NewGenerator","MultiPreserve",["shift_var_leq"],"solve",0.00,0.00,0.00,0.4066
@@ -79,3 +97,5 @@ workload,strategy,property,mutations,mode,discards,tests,shrinks,time
 "stlc-proplang-rocq","NewGenerator","MultiPreserve",["subst_var_none"],"solve",0.00,0.00,0.00,0.0013
 "stlc-proplang-rocq","NewGenerator","MultiPreserve",["subst_abs_no_shift"],"solve",0.00,0.00,0.00,0.4905
 "stlc-proplang-rocq","NewGenerator","MultiPreserve",["subst_abs_no_incr"],"solve",0.00,0.00,0.00,0.0052
+"stlc-proplang-rocq","NewGenerator","MultiPreserve",["substTop_no_shift"],"solve",0.00,0.00,0.00,0.0137
+"stlc-proplang-rocq","NewGenerator","MultiPreserve",["substTop_no_shift_back"],"solve",0.00,0.00,0.00,0.0073
