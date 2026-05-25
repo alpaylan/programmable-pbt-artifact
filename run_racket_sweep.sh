@@ -27,12 +27,8 @@ run() {
 }
 
 run bst-racket
-# run bst-proplang-racket
-
-# run rbt-racket
-# run rbt-proplang-racket
-
+run rbt-racket
 # run stlc-racket
-# run stlc-proplang-racket
+# run systemf-racket
 
 echo "=== all runs complete ==="
