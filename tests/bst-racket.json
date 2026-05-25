@@ -1,0 +1,1529 @@
+[
+  {
+    "workload": "bst-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "insert_1"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "((T E 2 1 E) 0 2 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "InsertPost",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 2 1 E) 0 2 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 2 1 E) 0 2 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 1 0 E) 0 0)"
+          }
+        ],
+        "property": "InsertModel",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 1 0 E) 0 0)"
+          }
+        ],
+        "property": "InsertModel"
+      },
+      {
+        "property": "InsertModel",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 1 0 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 1 0 E) 0 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 1 0 E) 0 0 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "DeleteInsert"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 1 0 E) 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertInsert",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 1 0 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 1 0 0 0)"
+          }
+        ],
+        "property": "InsertInsert",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 1 0 0 0)"
+          }
+        ],
+        "property": "InsertInsert"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E (T E 1 1 E) 0 0)"
+          }
+        ],
+        "property": "InsertUnion"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "InsertUnion",
+        "witnesses": [
+          {
+            "input": "(E (T E 1 1 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertUnion",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E (T E 1 1 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 2 0 E) E 0 0)"
+          }
+        ],
+        "property": "UnionDeleteInsert"
+      },
+      {
+        "property": "UnionDeleteInsert",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 2 0 E) E 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 2 0 E) E 0 0)"
+          }
+        ],
+        "property": "UnionDeleteInsert",
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "bst-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "insert_2"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "InsertPost",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) 1 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) 1 0 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) 1 0 0)"
+          }
+        ],
+        "property": "InsertPost"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -2 0 E) 0 0)"
+          }
+        ],
+        "property": "InsertModel"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -2 0 E) 0 0)"
+          }
+        ],
+        "property": "InsertModel"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -2 0 E) 0 0)"
+          }
+        ],
+        "property": "InsertModel"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "((T E 0 2 (T E 1 0 E)) 0 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "((T E 0 2 (T E 1 0 E)) 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "((T E 0 2 (T E 1 0 E)) 0 0 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) 0 1 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) 0 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) 0 1 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "property": "InsertInsert",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0 0)"
+          }
+        ],
+        "property": "InsertInsert"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0 0)"
+          }
+        ],
+        "property": "InsertInsert"
+      },
+      {
+        "property": "InsertUnion",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E (T E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E (T E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "InsertUnion",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E (T E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "InsertUnion"
+      },
+      {
+        "property": "UnionDeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T E -2 0 E) E 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "UnionDeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T E -2 0 E) E 0 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "UnionDeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T E -2 0 E) E 0 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "bst-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "insert_3"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "((T E 3 0 E) 3 3 1)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 3 0 E) 3 3 1)"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "InsertPost"
+      },
+      {
+        "property": "InsertPost",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 3 0 E) 3 3 1)"
+          }
+        ]
+      },
+      {
+        "property": "InsertModel",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) 0 0)"
+          }
+        ],
+        "property": "InsertModel",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) 0 0)"
+          }
+        ],
+        "property": "InsertModel",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (T E 0 0 E) 2 0 E) 2 2 0)"
+          }
+        ],
+        "property": "InsertDelete",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (T E 0 0 E) 2 0 E) 2 2 0)"
+          }
+        ],
+        "property": "InsertDelete",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "((T (T E 0 0 E) 2 0 E) 2 2 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 1 0)"
+          }
+        ],
+        "property": "InsertInsert"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 1 0)"
+          }
+        ],
+        "property": "InsertInsert",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 1 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke",
+        "property": "InsertInsert"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertUnion",
+        "witnesses": [
+          {
+            "input": "(E (T E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E (T E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "InsertUnion",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E (T E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "InsertUnion"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "UnionDeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T E -2 2 E) E -2 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -2 2 E) E -2 0)"
+          }
+        ],
+        "property": "UnionDeleteInsert"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "UnionDeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T E -2 2 E) E -2 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "bst-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "delete_4"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) 1)"
+          }
+        ],
+        "property": "DeleteModel"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) 1)"
+          }
+        ],
+        "property": "DeleteModel"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) 1)"
+          }
+        ],
+        "property": "DeleteModel"
+      },
+      {
+        "property": "DeletePost",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) 1 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "DeletePost",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) 1 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "DeletePost"
+      },
+      {
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T (T (T E 0 0 E) 3 5 E) 5 0 E) 5 3)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (T (T E 0 0 E) 3 5 E) 5 0 E) 5 3)"
+          }
+        ],
+        "property": "DeleteDelete",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T (T (T E 0 0 E) 3 5 E) 5 0 E) 5 3)"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ],
+        "property": "DeleteInsert"
+      },
+      {
+        "property": "DeleteUnion",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -1 0 E) (T E 0 1 E) -1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E -1 0 E) (T E 0 1 E) -1)"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "DeleteUnion"
+      },
+      {
+        "property": "DeleteUnion",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -1 0 E) (T E 0 1 E) -1)"
+          }
+        ]
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ],
+        "property": "InsertDelete",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) (T E 1 0 E) 0 0)"
+          }
+        ],
+        "property": "UnionDeleteInsert",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) (T E 1 0 E) 0 0)"
+          }
+        ],
+        "property": "UnionDeleteInsert",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) (T E 1 0 E) 0 0)"
+          }
+        ],
+        "property": "UnionDeleteInsert",
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "bst-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "delete_5"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "DeleteModel",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E 1 0 E) 3 0 E) 1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (T E 1 0 E) 3 0 E) 1)"
+          }
+        ],
+        "property": "DeleteModel",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (T E 1 0 E) 3 0 E) 1)"
+          }
+        ],
+        "property": "DeleteModel",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "property": "DeletePost",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E 2 0 E) 4 1 E) 2 2)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E 2 0 E) 4 1 E) 2 2)"
+          }
+        ],
+        "property": "DeletePost"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "DeletePost",
+        "witnesses": [
+          {
+            "input": "((T (T E 2 0 E) 4 1 E) 2 2)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T E -4 0 (T E 4 4 E)) 4 -4)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E -4 0 (T E 4 4 E)) 4 -4)"
+          }
+        ],
+        "property": "DeleteDelete",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T E -4 0 (T E 4 4 E)) 4 -4)"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 2 0 E) -2 -2 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 2 0 E) -2 -2 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 2 0 E) -2 -2 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -1 0 (T E 0 0 E)) (T E -2 2 E) -1)"
+          }
+        ],
+        "property": "DeleteUnion"
+      },
+      {
+        "property": "DeleteUnion",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -1 0 (T E 0 0 E)) (T E -2 2 E) -1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E -1 0 (T E 0 0 E)) (T E -2 2 E) -1)"
+          }
+        ],
+        "property": "DeleteUnion",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "property": "UnionDeleteInsert",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E -1 0 E) 0 0 E) E 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (T E -1 0 E) 0 0 E) E 0 0)"
+          }
+        ],
+        "property": "UnionDeleteInsert",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E -1 0 E) 0 0 E) E 0 0)"
+          }
+        ],
+        "property": "UnionDeleteInsert"
+      }
+    ]
+  },
+  {
+    "workload": "bst-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "union_6"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 0 0 E))"
+          }
+        ],
+        "property": "UnionValid"
+      },
+      {
+        "property": "UnionValid",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 0 0 E))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 0 0 E))"
+          }
+        ],
+        "property": "UnionValid",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "property": "UnionPost",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 (T E 1 1 E)) (T E 0 0 E) 1)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 (T E 1 1 E)) (T E 0 0 E) 1)"
+          }
+        ],
+        "property": "UnionPost"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 (T E 1 1 E)) (T E 0 0 E) 1)"
+          }
+        ],
+        "property": "UnionPost"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 0 0 E))"
+          }
+        ],
+        "property": "UnionModel"
+      },
+      {
+        "property": "UnionModel",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 0 0 E))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 0 0 E))"
+          }
+        ],
+        "property": "UnionModel",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "DeleteUnion",
+        "witnesses": [
+          {
+            "input": "((T E 2 2 E) (T E -1 0 E) -1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 2 2 E) (T E -1 0 E) -1)"
+          }
+        ],
+        "property": "DeleteUnion",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "DeleteUnion",
+        "witnesses": [
+          {
+            "input": "((T E 2 2 E) (T E -1 0 E) -1)"
+          }
+        ]
+      },
+      {
+        "property": "InsertUnion",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E (T E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E (T E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "InsertUnion",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E (T E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "InsertUnion"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 0 0 E) 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke",
+        "property": "UnionDeleteInsert"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "UnionDeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 0 0 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 0 0 E) 0 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke",
+        "property": "UnionDeleteInsert"
+      },
+      {
+        "property": "UnionUnionAssoc",
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) (T E 0 1 E) (T E 0 0 E))"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "UnionUnionAssoc",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) (T E 0 1 E) (T E 0 0 E))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 1 E) (T E 0 1 E) (T E 0 0 E))"
+          }
+        ],
+        "property": "UnionUnionAssoc",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "UnionUnionIdem",
+        "witnesses": [
+          {
+            "input": "(T E 0 0 E)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(T E 0 0 E)"
+          }
+        ],
+        "property": "UnionUnionIdem",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(T E 0 0 E)"
+          }
+        ],
+        "property": "UnionUnionIdem",
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "bst-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "union_7"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "(E (T E 0 2 (T E 0 0 E)))"
+          }
+        ],
+        "strategy": "ProplangBespoke",
+        "property": "UnionValid"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E (T E 0 2 (T E 0 0 E)))"
+          }
+        ],
+        "property": "UnionValid",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "UnionValid",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E (T E 0 2 (T E 0 0 E)))"
+          }
+        ]
+      },
+      {
+        "property": "UnionPost",
+        "witnesses": [
+          {
+            "input": "((T (T E -2 0 E) 2 0 E) (T E 0 0 E) -2)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (T E -2 0 E) 2 0 E) (T E 0 0 E) -2)"
+          }
+        ],
+        "property": "UnionPost",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "UnionPost",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E -2 0 E) 2 0 E) (T E 0 0 E) -2)"
+          }
+        ]
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -1 0 E) (T (T E -2 1 E) 0 0 E))"
+          }
+        ],
+        "property": "UnionModel"
+      },
+      {
+        "property": "UnionModel",
+        "witnesses": [
+          {
+            "input": "((T E -1 0 E) (T (T E -2 1 E) 0 0 E))"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -1 0 E) (T (T E -2 1 E) 0 0 E))"
+          }
+        ],
+        "property": "UnionModel"
+      },
+      {
+        "property": "DeleteUnion",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T (T E 0 0 E) 2 0 E) 2)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteUnion",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T (T E 0 0 E) 2 0 E) 2)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteUnion",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T (T E 0 0 E) 2 0 E) 2)"
+          }
+        ]
+      },
+      {
+        "property": "InsertUnion",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 1 1 E) 1 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 1 1 E) 1 0)"
+          }
+        ],
+        "property": "InsertUnion"
+      },
+      {
+        "property": "InsertUnion",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 1 1 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "property": "UnionDeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T (T E -1 0 E) 0 0 E) E 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "UnionDeleteInsert",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E -1 0 E) 0 0 E) E 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (T E -1 0 E) 0 0 E) E 0 0)"
+          }
+        ],
+        "property": "UnionDeleteInsert",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 1 0 E) (T E 1 1 E))"
+          }
+        ],
+        "strategy": "ProplangBespoke",
+        "property": "UnionUnionAssoc"
+      },
+      {
+        "property": "UnionUnionAssoc",
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 1 0 E) (T E 1 1 E))"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 0 0 E) (T E 1 0 E) (T E 1 1 E))"
+          }
+        ],
+        "property": "UnionUnionAssoc",
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "bst-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "union_8"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "((T (T E 4 4 E) 2147483647 0 E) (T E 4 0 E) 4)"
+          }
+        ],
+        "strategy": "ProplangBespoke",
+        "property": "UnionPost"
+      },
+      {
+        "property": "UnionPost",
+        "witnesses": [
+          {
+            "input": "((T (T E 4 4 E) 2147483647 0 E) (T E 4 0 E) 4)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "UnionPost",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E 4 4 E) 2147483647 0 E) (T E 4 0 E) 4)"
+          }
+        ]
+      },
+      {
+        "property": "UnionModel",
+        "witnesses": [
+          {
+            "input": "((T (T E -2 0 E) 2 0 E) (T E -2 1 E))"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (T E -2 0 E) 2 0 E) (T E -2 1 E))"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "UnionModel"
+      },
+      {
+        "property": "UnionModel",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E -2 0 E) 2 0 E) (T E -2 1 E))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (T E -2 0 E) 1 0 E) (T E 0 0 E) 1)"
+          }
+        ],
+        "property": "DeleteUnion",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E -2 0 E) 1 0 E) (T E 0 0 E) 1)"
+          }
+        ],
+        "property": "DeleteUnion"
+      },
+      {
+        "property": "DeleteUnion",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T (T E -2 0 E) 1 0 E) (T E 0 0 E) 1)"
+          }
+        ]
+      },
+      {
+        "property": "InsertUnion",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E 2 2 E) (T E -1 1 E) -1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 2 2 E) (T E -1 1 E) -1 0)"
+          }
+        ],
+        "property": "InsertUnion",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 2 2 E) (T E -1 1 E) -1 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke",
+        "property": "InsertUnion"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T E -1 3 E) (T E 3 1 E) -1 0)"
+          }
+        ],
+        "property": "UnionDeleteInsert"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "UnionDeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T E -1 3 E) (T E 3 1 E) -1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E -1 3 E) (T E 3 1 E) -1 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke",
+        "property": "UnionDeleteInsert"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "UnionUnionAssoc",
+        "witnesses": [
+          {
+            "input": "((T E 2 1 E) (T E 2 0 E) (T E 0 0 E))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 2 1 E) (T E 2 0 E) (T E 0 0 E))"
+          }
+        ],
+        "property": "UnionUnionAssoc",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T E 2 1 E) (T E 2 0 E) (T E 0 0 E))"
+          }
+        ],
+        "property": "UnionUnionAssoc",
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  }
+]

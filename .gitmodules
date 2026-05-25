@@ -16,3 +16,6 @@
 [submodule "workloads/stlc-proplang-rocq"]
 	path = workloads/stlc-proplang-rocq
 	url = https://github.com/alpaylan/etna-rocq-stlc-proplang
+[submodule "workloads/bst-racket"]
+	path = workloads/bst-racket
+	url = https://github.com/alpaylan/etna-racket-bst
