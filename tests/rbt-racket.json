@@ -1,0 +1,1748 @@
+[
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "delete_4"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -1 0 E) 0 3 (T B E 3 0 E)) -1 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -1 0 E) 0 3 (T B E 3 0 E)) -1 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -1 0 E) 0 3 (T B E 3 0 E)) -1 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0)"
+          }
+        ],
+        "property": "DeleteModel"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "DeleteModel"
+      },
+      {
+        "property": "DeleteModel",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeletePost",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "DeletePost",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeletePost",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke",
+        "property": "DeleteInsert"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "insert_1"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "InsertPost",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 -1 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 -1 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 -1 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0)"
+          }
+        ],
+        "property": "InsertModel",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "InsertModel"
+      },
+      {
+        "property": "InsertModel",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) -3 -3 0)"
+          }
+        ],
+        "property": "DeleteInsert"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) -3 -3 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) -3 -3 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke",
+        "property": "DeleteInsert"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertInsert",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 1 0 0)"
+          }
+        ],
+        "property": "InsertInsert",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "InsertInsert",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "insert_2"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 0 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 0 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertModel",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "InsertModel",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "InsertModel",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke",
+        "property": "InsertDelete"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0 1)"
+          }
+        ],
+        "property": "DeleteInsert"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0 1)"
+          }
+        ]
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0 1)"
+          }
+        ],
+        "property": "DeleteInsert"
+      },
+      {
+        "property": "InsertInsert",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 1 0 1 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertInsert",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 1 0 1 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertInsert",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 1 0 1 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "insert_3"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "((T B E 0 1 E) 0 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 0 1 E) 0 0 0)"
+          }
+        ],
+        "property": "InsertPost"
+      },
+      {
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "((T B E 0 1 E) 0 0 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertModel",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) -1 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) -1 0)"
+          }
+        ],
+        "property": "InsertModel"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) -1 0)"
+          }
+        ],
+        "property": "InsertModel",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete"
+      },
+      {
+        "property": "InsertInsert",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 3 3 0 1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 3 3 0 1)"
+          }
+        ],
+        "property": "InsertInsert",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "InsertInsert",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 3 3 0 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "delete_5"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 1 E) 0 0 (T B E 1 4 E)) 1)"
+          }
+        ],
+        "property": "DeleteModel"
+      },
+      {
+        "property": "DeleteModel",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 1 E) 0 0 (T B E 1 4 E)) 1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 1 E) 0 0 (T B E 1 4 E)) 1)"
+          }
+        ],
+        "property": "DeleteModel",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "property": "DeletePost",
+        "witnesses": [
+          {
+            "input": "((T B E 3 0 (T R E 4 0 E)) 4 4)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "DeletePost",
+        "witnesses": [
+          {
+            "input": "((T B E 3 0 (T R E 4 0 E)) 4 4)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 3 0 (T R E 4 0 E)) 4 4)"
+          }
+        ],
+        "property": "DeletePost",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E -4 6 (T R E 9 0 E)) 9 -4)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T B E -4 6 (T R E 9 0 E)) 9 -4)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E -4 6 (T R E 9 0 E)) 9 -4)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 1 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 1 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_insert"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "InsertValid",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "InsertValid",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "InsertValid",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_delete"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 (T R E 1 1 E)) 2)"
+          }
+        ],
+        "property": "DeleteValid",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "DeleteValid",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 (T R E 1 1 E)) 2)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteValid",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 (T R E 1 1 E)) 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_balLeft"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 E) 0 0 (T R (T B E 2 2 E) 5 6 (T B E 6 1 E))) -5)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 E) 0 0 (T R (T B E 2 2 E) 5 6 (T B E 6 1 E))) -5)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 E) 0 0 (T R (T B E 2 2 E) 5 6 (T B E 6 1 E))) -5)"
+          }
+        ],
+        "strategy": "ParallelBespoke",
+        "property": "DeleteValid"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 6 E) -1 0 (T R (T B E 0 0 E) 3 0 (T B E 5 8 E))) 5 -2)"
+          }
+        ],
+        "property": "DeleteDelete",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 6 E) -1 0 (T R (T B E 0 0 E) 3 0 (T B E 5 8 E))) 5 -2)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 6 E) -1 0 (T R (T B E 0 0 E) 3 0 (T B E 5 8 E))) 5 -2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_balRight"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) -2 0 (T B E 0 0 E)) 6 0 (T B E 7 6 E)) 7)"
+          }
+        ],
+        "property": "DeleteValid",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "DeleteValid",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) -2 0 (T B E 0 0 E)) 6 0 (T B E 7 6 E)) 7)"
+          }
+        ]
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) -2 0 (T B E 0 0 E)) 6 0 (T B E 7 6 E)) 7)"
+          }
+        ],
+        "property": "DeleteValid"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -9 1 E) -8 0 (T B E 0 0 E)) 3 0 (T B E 6 5 E)) -9 6)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -9 1 E) -8 0 (T B E 0 0 E)) 3 0 (T B E 6 5 E)) -9 6)"
+          }
+        ]
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -9 1 E) -8 0 (T B E 0 0 E)) 3 0 (T B E 6 5 E)) -9 6)"
+          }
+        ],
+        "property": "DeleteDelete"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_join_1"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B (T R (T B E -12 2 E) -6 0 (T B E -3 0 E)) -2 0 (T R (T B (T R E 0 0 E) 3 0 E) 4 0 (T B E 5 4 E))) 6 3 (T B (T B E 8 8 E) 9 0 (T B E 10 0 E))) -2)"
+          }
+        ],
+        "property": "DeleteValid",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B (T R (T B E -12 2 E) -6 0 (T B E -3 0 E)) -2 0 (T R (T B (T R E 0 0 E) 3 0 E) 4 0 (T B E 5 4 E))) 6 3 (T B (T B E 8 8 E) 9 0 (T B E 10 0 E))) -2)"
+          }
+        ],
+        "property": "DeleteValid",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B (T B (T R (T B E -12 2 E) -6 0 (T B E -3 0 E)) -2 0 (T R (T B (T R E 0 0 E) 3 0 E) 4 0 (T B E 5 4 E))) 6 3 (T B (T B E 8 8 E) 9 0 (T B E 10 0 E))) -2)"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_join_2"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "DeleteValid",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 (T R E -4 1 E)) -1 0 (T B (T R E 2 0 E) 4 0 E)) -1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 (T R E -4 1 E)) -1 0 (T B (T R E 2 0 E) 4 0 E)) -1)"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "DeleteValid"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 (T R E -4 1 E)) -1 0 (T B (T R E 2 0 E) 4 0 E)) -1)"
+          }
+        ],
+        "property": "DeleteValid",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T (B) (T (B) (E) 0 0 (E)) 1 0 (T (R) (T (B) (E) 2 0 (T (R) (E) 3 0 (E))) 4 0 (T (B) (E) 5 0 (E)))) 4 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T (B) (T (B) (E) 0 0 (E)) 1 0 (T (R) (T (B) (E) 2 0 (T (R) (E) 3 0 (E))) 4 0 (T (B) (E) 5 0 (E)))) 4 0)"
+          }
+        ],
+        "property": "DeleteDelete"
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T (B) (T (B) (E) 0 0 (E)) 1 0 (T (R) (T (B) (E) 2 0 (T (R) (E) 3 0 (E))) 4 0 (T (B) (E) 5 0 (E)))) 4 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "no_balance_insert_1"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertValid",
+        "witnesses": [
+          {
+            "input": "((T B (T R E 1 1 E) 2 2 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T R E 1 1 E) 2 2 E) 0 0)"
+          }
+        ],
+        "property": "InsertValid",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "InsertValid",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T R E 1 1 E) 2 2 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) 0 0 (T B E 1 0 (T R E 4 2 E))) 5 3 (T B E 7 4 E)) 7 2 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) 0 0 (T B E 1 0 (T R E 4 2 E))) 5 3 (T B E 7 4 E)) 7 2 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) 0 0 (T B E 1 0 (T R E 4 2 E))) 5 3 (T B E 7 4 E)) 7 2 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "no_balance_insert_2"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke",
+        "property": "InsertValid"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "InsertValid"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "InsertValid",
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 3 3 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 3 3 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 3 3 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "swap_bc"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "property": "InsertValid",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "InsertValid",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "property": "InsertValid"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "property": "InsertModel",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "property": "InsertModel",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "InsertModel",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "property": "InsertPost",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertPost"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "DeleteValid"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeletePost",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "property": "DeletePost",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeletePost",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteModel",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteModel",
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "DeleteModel",
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke",
+        "property": "DeleteDelete"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "property": "DeleteDelete",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "DeleteInsert"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "DeleteInsert"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertInsert",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0 0)"
+          }
+        ],
+        "property": "InsertInsert",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "InsertInsert",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "swap_cd"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertValid",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "InsertValid"
+      },
+      {
+        "property": "InsertValid",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "property": "InsertModel"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "property": "InsertModel",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "InsertModel",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ],
+        "property": "DeleteValid",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ],
+        "property": "DeleteValid"
+      },
+      {
+        "property": "DeleteValid",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke",
+        "property": "DeletePost"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ],
+        "property": "DeletePost",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeletePost",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteModel",
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "DeleteModel",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteModel",
+        "witnesses": [
+          {
+            "input": "(E 0)"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "RackcheckBespoke",
+        "property": "InsertDelete"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertInsert",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0 0)"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0 0)"
+          }
+        ],
+        "property": "InsertInsert",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "InsertInsert",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0 0)"
+          }
+        ]
+      }
+    ]
+  }
+]
