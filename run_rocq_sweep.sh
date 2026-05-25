@@ -15,7 +15,7 @@ run() {
   local store="store-${workload}.jsonl"
 
   echo "=== test=${test} -> ${store} ==="
-  etna experiment run \
+  ETNA_LOG=debug etna experiment run \
     --tests "${test}" \
     --store "${store}" \
     --short-circuit
