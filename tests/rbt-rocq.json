@@ -1,0 +1,1526 @@
+[
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "delete_4"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "DeleteDelete",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -1 0 E) 0 3 (T B E 3 0 E)) -1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -1 0 E) 0 3 (T B E 3 0 E)) -1 0)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator",
+        "property": "DeleteDelete"
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -1 0 E) 0 3 (T B E 3 0 E)) -1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -1 0 E) 0 3 (T B E 3 0 E)) -1 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer",
+        "property": "DeleteDelete"
+      },
+      {
+        "property": "DeleteModel",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteModel",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "property": "DeleteModel",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0)"
+          }
+        ],
+        "property": "DeleteModel",
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "property": "DeletePost",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "DeletePost",
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "DeletePost"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "DeletePost",
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ],
+        "property": "DeleteInsert"
+      },
+      {
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ],
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "BespokeGenerator",
+        "property": "InsertDelete"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete"
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "insert_1"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "BespokeGenerator",
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 -1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 -1 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 -1 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 -1 0)"
+          }
+        ],
+        "property": "InsertPost"
+      },
+      {
+        "property": "InsertModel",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertModel",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "property": "InsertModel",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer",
+        "property": "InsertModel"
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) -3 -3 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) -3 -3 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) -3 -3 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) -3 -3 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 1 0 0)"
+          }
+        ],
+        "property": "InsertInsert",
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 1 0 0)"
+          }
+        ],
+        "property": "InsertInsert",
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "property": "InsertInsert",
+        "witnesses": [
+          {
+            "input": "(E 0 1 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 1 0 0)"
+          }
+        ],
+        "property": "InsertInsert",
+        "strategy": "TypeBasedFuzzer"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "insert_2"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "BespokeGenerator",
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 0 0)"
+          }
+        ],
+        "property": "InsertPost"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 0 0)"
+          }
+        ],
+        "property": "InsertPost",
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) 0 0 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "strategy": "BespokeGenerator",
+        "property": "InsertModel"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "InsertModel"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "property": "InsertModel",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertModel",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete",
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer",
+        "property": "InsertDelete"
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0 1)"
+          }
+        ],
+        "property": "DeleteInsert"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0 1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0 1)"
+          }
+        ],
+        "strategy": "TypeBasedGenerator",
+        "property": "DeleteInsert"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0 1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 1 0 1 0)"
+          }
+        ],
+        "property": "InsertInsert",
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 1 0 1 0)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator",
+        "property": "InsertInsert"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(E 1 0 1 0)"
+          }
+        ],
+        "property": "InsertInsert"
+      },
+      {
+        "property": "InsertInsert",
+        "witnesses": [
+          {
+            "input": "(E 1 0 1 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "insert_3"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "InsertPost",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 0 1 E) 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "((T B E 0 1 E) 0 0 0)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "property": "InsertPost",
+        "witnesses": [
+          {
+            "input": "((T B E 0 1 E) 0 0 0)"
+          }
+        ],
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B E 0 1 E) 0 0 0)"
+          }
+        ],
+        "property": "InsertPost"
+      },
+      {
+        "property": "InsertModel",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) -1 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertModel",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) -1 0)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "property": "InsertModel",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) -1 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertModel",
+        "witnesses": [
+          {
+            "input": "((T B E -1 1 E) -1 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete"
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(E 3 3 0 1)"
+          }
+        ],
+        "property": "InsertInsert"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(E 3 3 0 1)"
+          }
+        ],
+        "property": "InsertInsert"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(E 3 3 0 1)"
+          }
+        ],
+        "strategy": "TypeBasedGenerator",
+        "property": "InsertInsert"
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "(E 3 3 0 1)"
+          }
+        ],
+        "property": "InsertInsert"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "delete_5"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "DeleteModel",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 1 E) 0 0 (T B E 1 4 E)) 1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 1 E) 0 0 (T B E 1 4 E)) 1)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator",
+        "property": "DeleteModel"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "property": "DeleteModel",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 1 E) 0 0 (T B E 1 4 E)) 1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 1 E) 0 0 (T B E 1 4 E)) 1)"
+          }
+        ],
+        "property": "DeleteModel",
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "property": "DeletePost",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 3 0 (T R E 4 0 E)) 4 4)"
+          }
+        ]
+      },
+      {
+        "property": "DeletePost",
+        "witnesses": [
+          {
+            "input": "((T B E 3 0 (T R E 4 0 E)) 4 4)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "property": "DeletePost",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 3 0 (T R E 4 0 E)) 4 4)"
+          }
+        ]
+      },
+      {
+        "property": "DeletePost",
+        "witnesses": [
+          {
+            "input": "((T B E 3 0 (T R E 4 0 E)) 4 4)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E -4 6 (T R E 9 0 E)) 9 -4)"
+          }
+        ],
+        "property": "DeleteDelete"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -4 6 (T R E 9 0 E)) 9 -4)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator",
+        "property": "DeleteDelete"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E -4 6 (T R E 9 0 E)) 9 -4)"
+          }
+        ],
+        "property": "DeleteDelete"
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T B E -4 6 (T R E 9 0 E)) 9 -4)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 1 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 1 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 1 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 1 0)"
+          }
+        ],
+        "property": "DeleteInsert"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_insert"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "InsertValid",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "property": "InsertValid",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "property": "InsertValid"
+      },
+      {
+        "property": "InsertValid",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 1 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0 0)"
+          }
+        ],
+        "property": "DeleteInsert",
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B E 1 0 E) 0 0 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_delete"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 (T R E 1 1 E)) 2)"
+          }
+        ],
+        "property": "DeleteValid"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 (T R E 1 1 E)) 2)"
+          }
+        ],
+        "property": "DeleteValid"
+      },
+      {
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 (T R E 1 1 E)) 2)"
+          }
+        ],
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 (T R E 1 1 E)) 2)"
+          }
+        ],
+        "property": "DeleteValid",
+        "strategy": "TypeBasedFuzzer"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_balLeft"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "DeleteValid",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 E) 0 0 (T R (T B E 2 2 E) 5 6 (T B E 6 1 E))) -5)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 E) 0 0 (T R (T B E 2 2 E) 5 6 (T B E 6 1 E))) -5)"
+          }
+        ],
+        "property": "DeleteValid",
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 E) 0 0 (T R (T B E 2 2 E) 5 6 (T B E 6 1 E))) -5)"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 E) 0 0 (T R (T B E 2 2 E) 5 6 (T B E 6 1 E))) -5)"
+          }
+        ],
+        "property": "DeleteValid"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 6 E) -1 0 (T R (T B E 0 0 E) 3 0 (T B E 5 8 E))) 5 -2)"
+          }
+        ],
+        "property": "DeleteDelete",
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 6 E) -1 0 (T R (T B E 0 0 E) 3 0 (T B E 5 8 E))) 5 -2)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 6 E) -1 0 (T R (T B E 0 0 E) 3 0 (T B E 5 8 E))) 5 -2)"
+          }
+        ],
+        "property": "DeleteDelete"
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -2 6 E) -1 0 (T R (T B E 0 0 E) 3 0 (T B E 5 8 E))) 5 -2)"
+          }
+        ],
+        "property": "DeleteDelete"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_balRight"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) -2 0 (T B E 0 0 E)) 6 0 (T B E 7 6 E)) 7)"
+          }
+        ],
+        "strategy": "BespokeGenerator",
+        "property": "DeleteValid"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) -2 0 (T B E 0 0 E)) 6 0 (T B E 7 6 E)) 7)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator",
+        "property": "DeleteValid"
+      },
+      {
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) -2 0 (T B E 0 0 E)) 6 0 (T B E 7 6 E)) 7)"
+          }
+        ],
+        "strategy": "TypeBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) -2 0 (T B E 0 0 E)) 6 0 (T B E 7 6 E)) 7)"
+          }
+        ],
+        "property": "DeleteValid"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -9 1 E) -8 0 (T B E 0 0 E)) 3 0 (T B E 6 5 E)) -9 6)"
+          }
+        ],
+        "property": "DeleteDelete",
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -9 1 E) -8 0 (T B E 0 0 E)) 3 0 (T B E 6 5 E)) -9 6)"
+          }
+        ],
+        "property": "DeleteDelete"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -9 1 E) -8 0 (T B E 0 0 E)) 3 0 (T B E 6 5 E)) -9 6)"
+          }
+        ],
+        "property": "DeleteDelete"
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -9 1 E) -8 0 (T B E 0 0 E)) 3 0 (T B E 6 5 E)) -9 6)"
+          }
+        ],
+        "property": "DeleteDelete"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_join_1"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B (T B (T R (T B E -12 2 E) -6 0 (T B E -3 0 E)) -2 0 (T R (T B (T R E 0 0 E) 3 0 E) 4 0 (T B E 5 4 E))) 6 3 (T B (T B E 8 8 E) 9 0 (T B E 10 0 E))) -2)"
+          }
+        ],
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B (T B (T R (T B E -12 2 E) -6 0 (T B E -3 0 E)) -2 0 (T R (T B (T R E 0 0 E) 3 0 E) 4 0 (T B E 5 4 E))) 6 3 (T B (T B E 8 8 E) 9 0 (T B E 10 0 E))) -2)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B (T B (T R (T B E -12 2 E) -6 0 (T B E -3 0 E)) -2 0 (T R (T B (T R E 0 0 E) 3 0 E) 4 0 (T B E 5 4 E))) 6 3 (T B (T B E 8 8 E) 9 0 (T B E 10 0 E))) -2)"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B (T B (T R (T B E -12 2 E) -6 0 (T B E -3 0 E)) -2 0 (T R (T B (T R E 0 0 E) 3 0 E) 4 0 (T B E 5 4 E))) 6 3 (T B (T B E 8 8 E) 9 0 (T B E 10 0 E))) -2)"
+          }
+        ],
+        "property": "DeleteValid"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "miscolor_join_2"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "BespokeGenerator",
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 (T R E -4 1 E)) -1 0 (T B (T R E 2 0 E) 4 0 E)) -1)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteValid",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 (T R E -4 1 E)) -1 0 (T B (T R E 2 0 E) 4 0 E)) -1)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "property": "DeleteValid",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 (T R E -4 1 E)) -1 0 (T B (T R E 2 0 E) 4 0 E)) -1)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteValid",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B (T B E -5 0 (T R E -4 1 E)) -1 0 (T B (T R E 2 0 E) 4 0 E)) -1)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T (B) (T (B) (E) 0 0 (E)) 1 0 (T (R) (T (B) (E) 2 0 (T (R) (E) 3 0 (E))) 4 0 (T (B) (E) 5 0 (E)))) 4 0)"
+          }
+        ],
+        "property": "DeleteDelete",
+        "strategy": "BespokeGenerator"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "property": "DeleteDelete",
+        "witnesses": [
+          {
+            "input": "((T (B) (T (B) (E) 0 0 (E)) 1 0 (T (R) (T (B) (E) 2 0 (T (R) (E) 3 0 (E))) 4 0 (T (B) (E) 5 0 (E)))) 4 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T (B) (T (B) (E) 0 0 (E)) 1 0 (T (R) (T (B) (E) 2 0 (T (R) (E) 3 0 (E))) 4 0 (T (B) (E) 5 0 (E)))) 4 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteDelete",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T (B) (T (B) (E) 0 0 (E)) 1 0 (T (R) (T (B) (E) 2 0 (T (R) (E) 3 0 (E))) 4 0 (T (B) (E) 5 0 (E)))) 4 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "no_balance_insert_1"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "InsertValid",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T R E 1 1 E) 2 2 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertValid",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T R E 1 1 E) 2 2 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "property": "InsertValid",
+        "witnesses": [
+          {
+            "input": "((T B (T R E 1 1 E) 2 2 E) 0 0)"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B (T R E 1 1 E) 2 2 E) 0 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer",
+        "property": "InsertValid"
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) 0 0 (T B E 1 0 (T R E 4 2 E))) 5 3 (T B E 7 4 E)) 7 2 0)"
+          }
+        ],
+        "property": "DeleteInsert"
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) 0 0 (T B E 1 0 (T R E 4 2 E))) 5 3 (T B E 7 4 E)) 7 2 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) 0 0 (T B E 1 0 (T R E 4 2 E))) 5 3 (T B E 7 4 E)) 7 2 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedFuzzer",
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T B (T R (T B E -8 0 E) 0 0 (T B E 1 0 (T R E 4 2 E))) 5 3 (T B E 7 4 E)) 7 2 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "TypeBasedFuzzer"
+      }
+    ]
+  },
+  {
+    "workload": "rbt-rocq",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "no_balance_insert_2"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0)"
+          }
+        ],
+        "property": "InsertValid"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0)"
+          }
+        ],
+        "property": "InsertValid",
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0)"
+          }
+        ],
+        "property": "InsertValid"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "((T B E -1 0 E) 0 0)"
+          }
+        ],
+        "property": "InsertValid",
+        "strategy": "TypeBasedFuzzer"
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 3 3 0)"
+          }
+        ],
+        "property": "DeleteInsert"
+      },
+      {
+        "strategy": "SpecificationBasedGenerator",
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 3 3 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "TypeBasedGenerator",
+        "property": "DeleteInsert",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 3 3 0)"
+          }
+        ]
+      },
+      {
+        "property": "DeleteInsert",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "((T B E 0 0 E) 3 3 0)"
+          }
+        ]
+      },
+      {
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "property": "InsertDelete"
+      },
+      {
+        "property": "InsertDelete",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ],
+        "strategy": "SpecificationBasedGenerator"
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      },
+      {
+        "property": "InsertDelete",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "(E 0 0 0)"
+          }
+        ]
+      }
+    ]
+  }
+]

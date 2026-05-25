@@ -7,3 +7,6 @@
 [submodule "workloads/bst-rocq"]
 	path = workloads/bst-rocq
 	url = https://github.com/alpaylan/etna-rocq-bst
+[submodule "workloads/rbt-rocq"]
+	path = workloads/rbt-rocq
+	url = https://github.com/alpaylan/etna-rocq-rbt
