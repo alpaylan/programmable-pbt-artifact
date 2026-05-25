@@ -19,8 +19,13 @@ run() {
     --tests "${test}" \
     --store "${store}" \
     --short-circuit
-}
 
+   ETNA_LOG=debug etna experiment visualize \
+    --figure "${test}" \
+    --tests "${test}" \
+    --visualization-type bucket \
+    --store "${store}"
+}
 
 run bst-rocq
 run bst-proplang-rocq
