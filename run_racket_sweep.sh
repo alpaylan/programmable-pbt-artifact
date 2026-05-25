@@ -26,9 +26,9 @@ run() {
     --store "${store}"
 }
 
+run stlc-racket
 run bst-racket
 run rbt-racket
-# run stlc-racket
 # run systemf-racket
 
 echo "=== all runs complete ==="
