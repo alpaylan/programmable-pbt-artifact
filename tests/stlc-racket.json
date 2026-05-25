@@ -1,0 +1,662 @@
+[
+  {
+    "workload": "stlc-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_var_none"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "MultiPreserve"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "stlc-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_var_all"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve"
+      }
+    ]
+  },
+  {
+    "workload": "stlc-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_var_leq"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "stlc-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "shift_abs_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs TBool (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "stlc-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_var_all"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs (TFun TBool TBool) (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "stlc-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_var_none"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Var 0)) (Bool #t))"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "workload": "stlc-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_abs_no_shift"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "SinglePreserve",
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Var 0))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "stlc-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "subst_abs_no_incr"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(App (Abs TBool (Abs (TFun TBool TBool) (Var 1))) (Bool #t))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "stlc-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "substTop_no_shift"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "strategy": "ProplangBespoke",
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "strategy": "ParallelBespoke",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "SinglePreserve"
+      },
+      {
+        "strategy": "ProplangBespoke",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "strategy": "RackcheckBespoke",
+        "property": "MultiPreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 1)) (Bool #t)))"
+          }
+        ],
+        "property": "MultiPreserve",
+        "strategy": "ParallelBespoke"
+      }
+    ]
+  },
+  {
+    "workload": "stlc-racket",
+    "trials": 10,
+    "timeout": 60.0,
+    "mutations": [
+      "substTop_no_shift_back"
+    ],
+    "mode": "Solve",
+    "params": null,
+    "tasks": [
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 0)) (Var 0)))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "ProplangBespoke"
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 0)) (Var 0)))"
+          }
+        ],
+        "property": "SinglePreserve",
+        "strategy": "RackcheckBespoke"
+      },
+      {
+        "property": "SinglePreserve",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 0)) (Var 0)))"
+          }
+        ],
+        "strategy": "ParallelBespoke"
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "ProplangBespoke",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 0)) (Var 0)))"
+          }
+        ]
+      },
+      {
+        "property": "MultiPreserve",
+        "strategy": "RackcheckBespoke",
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 0)) (Var 0)))"
+          }
+        ]
+      },
+      {
+        "witnesses": [
+          {
+            "input": "(Abs TBool (App (Abs TBool (Var 0)) (Var 0)))"
+          }
+        ],
+        "strategy": "ParallelBespoke",
+        "property": "MultiPreserve"
+      }
+    ]
+  }
+]

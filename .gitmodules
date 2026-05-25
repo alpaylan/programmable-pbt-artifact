@@ -22,3 +22,6 @@
 [submodule "workloads/rbt-racket"]
 	path = workloads/rbt-racket
 	url = https://github.com/alpaylan/etna-racket-rbt
+[submodule "workloads/stlc-racket"]
+	path = workloads/stlc-racket
+	url = https://github.com/alpaylan/etna-racket-stlc
