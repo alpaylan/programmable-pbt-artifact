@@ -1508,6 +1508,42 @@
             "input": "(T E 0 0 E)"
           }
         ]
+      },
+      {
+        "property": "UnionUnionIdem",
+        "strategy": "BespokeGenerator",
+        "witnesses": [
+          {
+            "input": "(T E 0 0 E)"
+          }
+        ]
+      },
+      {
+        "property": "UnionUnionIdem",
+        "strategy": "SpecificationBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(T E 0 0 E)"
+          }
+        ]
+      },
+      {
+        "property": "UnionUnionIdem",
+        "strategy": "TypeBasedGenerator",
+        "witnesses": [
+          {
+            "input": "(T E 0 0 E)"
+          }
+        ]
+      },
+      {
+        "property": "UnionUnionIdem",
+        "strategy": "TypeBasedFuzzer",
+        "witnesses": [
+          {
+            "input": "(T E 0 0 E)"
+          }
+        ]
       }
     ]
   },
