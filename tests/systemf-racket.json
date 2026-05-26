@@ -396,7 +396,7 @@
     "trials": 10,
     "timeout": 60.0,
     "mutations": [
-      "tsubst_all_no_tshift"
+      "tsubst_all_no_shift"
     ],
     "mode": "Solve",
     "params": null,
