@@ -28,6 +28,3 @@
 [submodule "workloads/systemf-racket"]
 	path = workloads/systemf-racket
 	url = https://github.com/alpaylan/etna-racket-systemf
-[submodule "workloads/ifc-proplang-rocq"]
-	path = workloads/ifc-proplang-rocq
-	url = https://github.com/alpaylan/etna-rocq-ifc-proplang
