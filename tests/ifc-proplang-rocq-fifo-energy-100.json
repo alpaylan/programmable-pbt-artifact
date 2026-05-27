@@ -1,8 +1,8 @@
 [
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpLab_1",
       "fifo_seed_pool_choice"
@@ -11,35 +11,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpMLab_1",
       "fifo_seed_pool_choice"
@@ -49,34 +29,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpMLab_2",
       "fifo_seed_pool_choice"
@@ -85,35 +45,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpPcLab_1",
       "fifo_seed_pool_choice"
@@ -123,34 +63,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBCall_1",
       "fifo_seed_pool_choice"
@@ -160,34 +80,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBCall_2",
       "fifo_seed_pool_choice"
@@ -197,34 +97,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBCall_3",
       "fifo_seed_pool_choice"
@@ -234,34 +114,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBCall_4",
       "fifo_seed_pool_choice"
@@ -270,35 +130,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBCall_5",
       "fifo_seed_pool_choice"
@@ -308,34 +148,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBCall_6",
       "fifo_seed_pool_choice"
@@ -344,35 +164,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_1",
       "fifo_seed_pool_choice"
@@ -381,35 +181,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_2",
       "fifo_seed_pool_choice"
@@ -418,35 +198,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_3",
       "fifo_seed_pool_choice"
@@ -456,34 +216,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_4",
       "fifo_seed_pool_choice"
@@ -492,35 +232,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_5",
       "fifo_seed_pool_choice"
@@ -529,35 +249,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_6",
       "fifo_seed_pool_choice"
@@ -566,35 +266,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_7",
       "fifo_seed_pool_choice"
@@ -603,35 +283,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_8",
       "fifo_seed_pool_choice"
@@ -640,35 +300,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_9",
       "fifo_seed_pool_choice"
@@ -677,35 +317,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_10",
       "fifo_seed_pool_choice"
@@ -714,35 +334,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBRet_11",
       "fifo_seed_pool_choice"
@@ -752,34 +352,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpPutLab_1",
       "fifo_seed_pool_choice"
@@ -788,35 +368,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpNop_1",
       "fifo_seed_pool_choice"
@@ -825,35 +385,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpPut_1",
       "fifo_seed_pool_choice"
@@ -862,35 +402,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBinOp_1",
       "fifo_seed_pool_choice"
@@ -900,34 +420,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBinOp_2",
       "fifo_seed_pool_choice"
@@ -936,35 +436,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBinOp_3",
       "fifo_seed_pool_choice"
@@ -974,34 +454,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBinOp_4",
       "fifo_seed_pool_choice"
@@ -1010,35 +470,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpJump_1",
       "fifo_seed_pool_choice"
@@ -1047,35 +487,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpJump_2",
       "fifo_seed_pool_choice"
@@ -1084,35 +504,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpJump_3",
       "fifo_seed_pool_choice"
@@ -1121,35 +521,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBNZ_1",
       "fifo_seed_pool_choice"
@@ -1158,35 +538,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBNZ_2",
       "fifo_seed_pool_choice"
@@ -1195,35 +555,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpBNZ_3",
       "fifo_seed_pool_choice"
@@ -1232,35 +572,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpLoad_1",
       "fifo_seed_pool_choice"
@@ -1269,35 +589,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpLoad_2",
       "fifo_seed_pool_choice"
@@ -1307,34 +607,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpLoad_3",
       "fifo_seed_pool_choice"
@@ -1343,35 +623,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpLoad_4",
       "fifo_seed_pool_choice"
@@ -1380,35 +640,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpStore_1",
       "fifo_seed_pool_choice"
@@ -1418,34 +658,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpStore_2",
       "fifo_seed_pool_choice"
@@ -1454,35 +674,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpStore_3",
       "fifo_seed_pool_choice"
@@ -1492,34 +692,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpStore_4",
       "fifo_seed_pool_choice"
@@ -1528,35 +708,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpStore_5",
       "fifo_seed_pool_choice"
@@ -1566,34 +726,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_1",
       "fifo_seed_pool_choice"
@@ -1602,35 +742,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_2",
       "fifo_seed_pool_choice"
@@ -1639,35 +759,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_3",
       "fifo_seed_pool_choice"
@@ -1677,34 +777,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_4",
       "fifo_seed_pool_choice"
@@ -1714,34 +794,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_5",
       "fifo_seed_pool_choice"
@@ -1750,35 +810,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_6",
       "fifo_seed_pool_choice"
@@ -1787,35 +827,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_7",
       "fifo_seed_pool_choice"
@@ -1825,34 +845,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_8",
       "fifo_seed_pool_choice"
@@ -1861,35 +861,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_9",
       "fifo_seed_pool_choice"
@@ -1898,35 +878,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_10",
       "fifo_seed_pool_choice"
@@ -1936,34 +896,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpWrite_11",
       "fifo_seed_pool_choice"
@@ -1973,34 +913,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpAlloc_1",
       "fifo_seed_pool_choice"
@@ -2009,35 +929,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpAlloc_2",
       "fifo_seed_pool_choice"
@@ -2047,34 +947,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpAlloc_3",
       "fifo_seed_pool_choice"
@@ -2083,35 +963,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpAlloc_4",
       "fifo_seed_pool_choice"
@@ -2120,35 +980,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpPSetOff_1",
       "fifo_seed_pool_choice"
@@ -2157,35 +997,15 @@
     "params": null,
     "tasks": [
       {
-        "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpPSetOff_2",
       "fifo_seed_pool_choice"
@@ -2195,34 +1015,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpPSetOff_3",
       "fifo_seed_pool_choice"
@@ -2231,35 +1031,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpPSetOff_4",
       "fifo_seed_pool_choice"
@@ -2268,35 +1048,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpPGetOff_1",
       "fifo_seed_pool_choice"
@@ -2305,35 +1065,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpPGetOff_2",
       "fifo_seed_pool_choice"
@@ -2343,34 +1083,14 @@
     "tasks": [
       {
         "property": "test_propLLNI",
-        "strategy": "BespokeGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpMSize_1",
       "fifo_seed_pool_choice"
@@ -2379,35 +1099,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpMSize_2",
       "fifo_seed_pool_choice"
@@ -2416,35 +1116,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
         "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpMSize_3",
       "fifo_seed_pool_choice"
@@ -2453,35 +1133,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "strategy": "TypeBasedGenerator",
-        "property": "test_propLLNI"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpMSize_4",
       "fifo_seed_pool_choice"
@@ -2490,35 +1150,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "BespokeLLNIGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "strategy": "TypeBasedFuzzer",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
         "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpMov_1",
       "fifo_seed_pool_choice"
@@ -2527,35 +1167,15 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "strategy": "VariationalMutatingGenerator",
-        "property": "test_propLLNI"
       }
     ]
   },
   {
     "workload": "ifc-proplang-rocq",
-    "trials": 10,
-    "timeout": 60.0,
+    "trials": 6,
+    "timeout": 45.0,
     "mutations": [
       "OpMov_2",
       "fifo_seed_pool_choice"
@@ -2564,28 +1184,8 @@
     "params": null,
     "tasks": [
       {
-        "strategy": "BespokeGenerator",
-        "property": "test_propLLNI"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "BespokeLLNIGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "TypeBasedGenerator"
-      },
-      {
         "property": "test_propLLNI",
         "strategy": "TypeBasedFuzzer"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalGenerator"
-      },
-      {
-        "property": "test_propLLNI",
-        "strategy": "VariationalMutatingGenerator"
       }
     ]
   }
