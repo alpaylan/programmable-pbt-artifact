@@ -2,7 +2,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpLab_1"
     ],
@@ -18,7 +18,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpMLab_1"
     ],
@@ -34,7 +34,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpMLab_2"
     ],
@@ -50,7 +50,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpPcLab_1"
     ],
@@ -66,7 +66,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBCall_1"
     ],
@@ -82,7 +82,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBCall_2"
     ],
@@ -98,7 +98,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBCall_3"
     ],
@@ -114,7 +114,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBCall_4"
     ],
@@ -130,7 +130,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBCall_5"
     ],
@@ -146,7 +146,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBCall_6"
     ],
@@ -162,7 +162,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_1"
     ],
@@ -178,7 +178,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_2"
     ],
@@ -194,7 +194,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_3"
     ],
@@ -210,7 +210,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_4"
     ],
@@ -226,7 +226,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_5"
     ],
@@ -242,7 +242,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_6"
     ],
@@ -258,7 +258,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_7"
     ],
@@ -274,7 +274,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_8"
     ],
@@ -290,7 +290,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_9"
     ],
@@ -306,7 +306,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_10"
     ],
@@ -322,7 +322,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBRet_11"
     ],
@@ -338,7 +338,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpPutLab_1"
     ],
@@ -354,7 +354,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpNop_1"
     ],
@@ -370,7 +370,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpPut_1"
     ],
@@ -386,7 +386,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBinOp_1"
     ],
@@ -402,7 +402,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBinOp_2"
     ],
@@ -418,7 +418,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBinOp_3"
     ],
@@ -434,7 +434,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBinOp_4"
     ],
@@ -450,7 +450,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpJump_1"
     ],
@@ -466,7 +466,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpJump_2"
     ],
@@ -482,7 +482,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpJump_3"
     ],
@@ -498,7 +498,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBNZ_1"
     ],
@@ -514,7 +514,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBNZ_2"
     ],
@@ -530,7 +530,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpBNZ_3"
     ],
@@ -546,7 +546,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpLoad_1"
     ],
@@ -562,7 +562,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpLoad_2"
     ],
@@ -578,7 +578,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpLoad_3"
     ],
@@ -594,7 +594,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpLoad_4"
     ],
@@ -610,7 +610,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpStore_1"
     ],
@@ -626,7 +626,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpStore_2"
     ],
@@ -642,7 +642,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpStore_3"
     ],
@@ -658,7 +658,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpStore_4"
     ],
@@ -674,7 +674,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpStore_5"
     ],
@@ -690,7 +690,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_1"
     ],
@@ -706,7 +706,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_2"
     ],
@@ -722,7 +722,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_3"
     ],
@@ -738,7 +738,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_4"
     ],
@@ -754,7 +754,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_5"
     ],
@@ -770,7 +770,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_6"
     ],
@@ -786,7 +786,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_7"
     ],
@@ -802,7 +802,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_8"
     ],
@@ -818,7 +818,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_9"
     ],
@@ -834,7 +834,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_10"
     ],
@@ -850,7 +850,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpWrite_11"
     ],
@@ -866,7 +866,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpAlloc_1"
     ],
@@ -882,7 +882,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpAlloc_2"
     ],
@@ -898,7 +898,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpAlloc_3"
     ],
@@ -914,7 +914,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpAlloc_4"
     ],
@@ -930,7 +930,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpPSetOff_1"
     ],
@@ -946,7 +946,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpPSetOff_2"
     ],
@@ -962,7 +962,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpPSetOff_3"
     ],
@@ -978,7 +978,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpPSetOff_4"
     ],
@@ -994,7 +994,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpPGetOff_1"
     ],
@@ -1010,7 +1010,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpPGetOff_2"
     ],
@@ -1026,7 +1026,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpMSize_1"
     ],
@@ -1042,7 +1042,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpMSize_2"
     ],
@@ -1058,7 +1058,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpMSize_3"
     ],
@@ -1074,7 +1074,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpMSize_4"
     ],
@@ -1090,7 +1090,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpMov_1"
     ],
@@ -1106,7 +1106,7 @@
   {
     "workload": "ifc-proplang-rocq",
     "trials": 6,
-    "timeout": 45.0,
+    "timeout": 60.0,
     "mutations": [
       "OpMov_2"
     ],
